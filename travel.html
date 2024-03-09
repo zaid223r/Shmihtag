@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!شمحتاج</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+
+    <nav id="main_nav" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="main_page.html" id="imageBrand"><img src="images/gateitem.png" alt="" srcset="" width="60px" height="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="main_page.html">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catagory.html">!<span id="newbrand"> شتحتاج</span> هنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="thebrand">!ها محتاج تسافر </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="">
+                <div class="companygold">
+                    <a href="ex.html" class="nav-link"><h2>Example</h2>
+                    <p>Example for a subscribed company</p></a>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-4">
+                <div class="companyodd">
+                    <h2>Company 1</h2>
+                    <p>not subscribed</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="companyeven">
+                    <h2>Company 2</h2>
+                    <p>Description of Company 2.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="companyodd">
+                    <h2>Company 3</h2>
+                    <p>Description of Company 3.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="companyeven">
+                    <h2>Company 4</h2>
+                    <p>Description of Company 4.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="companyodd">
+                    <h2>Company 5</h2>
+                    <p>Description of Company 5.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="companyeven">
+                    <h2>Company 6</h2>
+                    <p>Description of Company 6.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>let user_click = document.querySelector('.navbar-toggler');
+        let brand = document.querySelector('#imageBrand');
+        let textToggle = true;
+    
+        user_click.addEventListener("click", function() {
+            if (textToggle) {
+                brand.innerHTML = "<span id = 'brand'>!!كلي شمحتاج</span>";
+            } else {
+                brand.innerHTML = '<img src="images/gateitem.png" alt="" srcset="" width="60px" height="50px">';
+            }
+            textToggle = !textToggle; // Toggle the value
+        });</script>
+</body>
+</html>

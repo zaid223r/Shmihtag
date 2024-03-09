@@ -1,0 +1,35 @@
+@font-face {
+    font-family: alkalami;
+    src: url(fonts/Alkalami-Regular.ttf);
+  }
+
+  body{
+    background-image: url("images/bg.png");
+    background-size: 100%;
+    
+    
+}
+nav{
+    height: 70px;
+    background-color: white;
+  }
+#navbarSupportedContent{
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 23px;
+  }
+#imageBrand{
+    width: 60px;
+    height: 50px;
+}
+#newbrand{
+    font-family: alkalami;
+   }
+#brand{
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    font-family: alkalami;
+    font-size: 40px;
+}

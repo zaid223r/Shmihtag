@@ -1,0 +1,19 @@
+@font-face {
+    font-family: alkalami;
+    src: url(fonts/Alkalami-Regular.ttf);
+  }
+
+
+
+body{
+    background-image: url("images/image2.png");
+    background-size: 100%;
+}
+#shmihtag{
+    display: flex;
+    justify-content: center;
+    margin-top: 100%;
+    font-size: 70px;
+    font-family: alkalami;
+    
+}

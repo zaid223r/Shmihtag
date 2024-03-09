@@ -1,0 +1,68 @@
+@font-face {
+    font-family: alkalami;
+    src: url(fonts/Alkalami-Regular.ttf);
+  }
+
+
+
+body{
+    background-image: url("images/bg.png");
+    background-size: 100%;
+    
+}
+nav{
+    height: 70px;
+    background-color: white;
+  }
+#navbarSupportedContent{
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 23px;
+  }
+#imageBrand{
+    width: 60px;
+    height: 50px;
+}
+#brand{
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    font-family: alkalami;
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #777;
+}
+
+
+#newbrand{
+    font-family: alkalami;
+   }
+
+.company {
+    background-color: gold; /* White background color */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin-bottom: 30px;
+}
